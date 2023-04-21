@@ -1,7 +1,6 @@
 /* give background image */
 body {
-  background: url(https://img.freepik.com/free-vector/flat-idul-fitri-background_23-2149346850.jpg?w=1380&t=st=1682042898~exp=1682043498~hmac=a4410f4baa2b2d14a613327a29c2fe484e0225f6de012aec2fec4b867124682e)
-    no-repeat center center fixed;
+  background: url("back.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
