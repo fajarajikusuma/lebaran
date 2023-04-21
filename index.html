@@ -134,6 +134,18 @@
     <script>
         document.getElementById('btnMasuk').addEventListener('click', function () {
             document.body.style.overflowY = 'auto'; /* Mengizinkan scroll setelah tombol masuk diklik */
+            var musik = new Audio('takbiran.mp3');
+            musik.play();
+
+            // jika musik sedang berjalan, maka tombol akan berubah menjadi pause
+            document.getElementById('btnMasuk').addEventListener('click', function () {
+                if (musik.paused) {
+                    musik.play();
+                } else {
+                    musik.pause();
+                    // document.getElementById('btnMasuk').innerHTML = 'Play';
+                }
+            });
         });
     </script>
 
